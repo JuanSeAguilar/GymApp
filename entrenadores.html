@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <title>GYM STYLE's</title>
+  </head>
+  <body>
+    <header>
+      <!-- nav de navegacion -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- logo -->
+          <a class="navbar-brand " href="../Nueva carpeta/inicio.html">
+            <img src="img/LogoGym.png" alt="logo" height="56" class="d-inline-block align-center">
+          </a>
+          <!-- boton hamburguesa -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- liks de paginas -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../Nueva carpeta/inicio.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a id="entrena" class="nav-link" href="#">Entrenadores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="APQR.html">APQR</a>
+              </li>
+                </ul>
+                <hr class="d-none-md text-white-50 bg-dark">
+            <form class="d-flex">
+              <div class="col-6 col-lg-auto">
+                <!-- boton de registro -->
+                <button type="button" class="btn btn-outline-dark col-12">Registrarse</button>
+              </div>
+              <div class="col-6 col-lg-auto">
+                <!-- boton de inicio de sesion -->
+                <button type="button" class="btn btn btn-secondary col-12">Iniciar sesion</button>
+                
+              </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="my-2">
+        <div class="row">
+            <!-- entrenador 1 -->
+            <div class="col-sm-6 col-md-3">
+               <div class="card  bg-dark" >
+                 <img src="img/entrenadores/pexels-ali-madad-sakhirani-1211605.jpg" class="card-img-top" alt="1">
+                 <div class="card-body text-white">
+                   <h5 class="card-title">Andres R.</h5>
+                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                   <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalentrenador1">
+                     Más información
+                   </button>
+                 </div>
+                 <!-- modal1 -->
+                 <div class="modal fade" id="modalentrenador1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                   <div class="modal-dialog">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel1">Andres R.</h5>
+                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                       <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 col-md-5">
+                                <img src="img/entrenadores/pexels-ali-madad-sakhirani-1211605.jpg" class="img-fluid" alt="9">
+                            </div>
+                            <div class="col-12 col-md-7">
+                                ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid corporis quas fuga nesciunt asperiores. Repellat tempore, accusamus unde, esse, ea deleniti modi eius culpa iste odio repudiandae nihil nam.
+                            </div>
+                        </div>      
+                       </div>
+                       <div class="modal-footer">
+                         <a   target="_blank" href="https://www.facebook.com">
+                           <img src="img/iconosredes/facebook.png" alt="face" width="34" height="34"   >
+                         </a>
+                          <a  target="_blank" href="https://www.instagram.com">
+                           <img src="img/iconosredes/instagram.png" alt="ins" width="34" height="34" >
+                         </a>
+                         <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            <!-- entrenador 2 -->
+             <div class="col-sm-6 col-md-3">
+                <div class="card  bg-dark" >
+                  <img src="img/entrenadores/pexels-andrew-dick-733500.jpg" class="card-img-top" alt="2">
+                  <div class="card-body text-white">
+                    <h5 class="card-title">Carlos N.</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalentrenador2">
+                      Más información
+                    </button>
+                  </div>
+                  <!-- modal2 -->
+                  <div class="modal fade" id="modalentrenador2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel2">Carlos N.</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <img src="img/entrenadores/pexels-andrew-dick-733500.jpg" class="img-fluid" alt="10">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid corporis quas fuga nesciunt asperiores. Repellat tempore, accusamus unde, esse, ea deleniti modi eius culpa iste odio repudiandae nihil nam.
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="modal-footer">
+                          <a   target="_blank" href="https://www.facebook.com">
+                            <img src="img/iconosredes/facebook.png" alt="face1" width="34" height="34"   >
+                          </a>
+                           <a  target="_blank" href="https://www.instagram.com">
+                            <img src="img/iconosredes/instagram.png" alt="ins1" width="34" height="34" >
+                          </a>
+                          <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             <!-- entrenador 3 -->
+            <div class="col-sm-6 col-md-3">
+                <div class="card  bg-dark" >
+                  <img src="img/entrenadores/pexels-dani-alejandro-2951545.jpg" class="card-img-top" alt="3">
+                  <div class="card-body text-white">
+                    <h5 class="card-title">Samuel M.</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalentrenador3">
+                      Más información
+                    </button>
+                  </div>
+                  <!-- Modal3-->
+                  <div class="modal fade" id="modalentrenador3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel3">Samuel M.</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <img src="img/entrenadores/pexels-dani-alejandro-2951545.jpg" class="img-fluid" alt="11">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid corporis quas fuga nesciunt asperiores. Repellat tempore, accusamus unde, esse, ea deleniti modi eius culpa iste odio repudiandae nihil nam.
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="modal-footer">
+                          <a   target="_blank" href="https://www.facebook.com">
+                            <img src="img/iconosredes/facebook.png" alt="face2" width="34" height="34"   >
+                          </a>
+                           <a  target="_blank" href="https://www.instagram.com">
+                            <img src="img/iconosredes/instagram.png" alt="ins2" width="34" height="34" >
+                          </a>
+                          <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- entrenador 4 -->
+            <div class="col-sm-6 col-md-3">
+                <div class="card  bg-dark" >
+                  <img src="img/entrenadores/pexels-dellon-thomas-2216612.jpg" class="card-img-top" alt="4">
+                  <div class="card-body text-white">
+                    <h5 class="card-title">Harol Y.</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalentrenador4">
+                      Más información
+                    </button>
+                  </div>
+                  <!-- Modal4-->
+                  <div class="modal fade" id="modalentrenador4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel4">Harol Y.</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-12 col-md-5">
+                                    <img src="img/entrenadores/pexels-dellon-thomas-2216612.jpg" class="img-fluid" alt="12">
+                                </div>
+                                <div class="col-12 col-md-7">
+                                    ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid corporis quas fuga nesciunt asperiores. Repellat tempore, accusamus unde, esse, ea deleniti modi eius culpa iste odio repudiandae nihil nam.
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="modal-footer">
+                          <a   target="_blank" href="https://www.facebook.com">
+                            <img src="img/iconosredes/facebook.png" alt="face3" width="34" height="34"   >
+                          </a>
+                           <a  target="_blank" href="https://www.instagram.com">
+                            <img src="img/iconosredes/instagram.png" alt="ins3" width="34" height="34" >
+                          </a>
+                          <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    <hr>
+ 
+    <div class="my-2">
+        <div class="row">
+         <!-- entrenador 5 -->
+         <div class="col-sm-6 col-md-3">
+            <div class="card  bg-dark" >
+              <img src="img/entrenadores/pexels-jermaine-ulinwa-3225889.jpg" class="card-img-top" alt="5">
+              <div class="card-body text-white">
+                <h5 class="card-title">Angela P.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalentrenador5">
+                  Más información
+                </button>
+              </div>
+              <!-- Modal5-->
+              <div class="modal fade" id="modalentrenador5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel5">Angela P.</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 col-md-5">
+                                <img src="img/entrenadores/pexels-jermaine-ulinwa-3225889.jpg" class="img-fluid" alt="13">
+                            </div>
+                            <div class="col-12 col-md-7">
+                                ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid corporis quas fuga nesciunt asperiores. Repellat tempore, accusamus unde, esse, ea deleniti modi eius culpa iste odio repudiandae nihil nam.
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="modal-footer">
+                      <a   target="_blank" href="https://www.facebook.com">
+                        <img src="img/iconosredes/facebook.png" alt="face4" width="34" height="34"   >
+                      </a>
+                       <a  target="_blank" href="https://www.instagram.com">
+                        <img src="img/iconosredes/instagram.png" alt="ins4" width="34" height="34" >
+                      </a>
+                      <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         <!-- entrenador 6 -->
+         <div class="col-sm-6 col-md-3">
+            <div class="card  bg-dark" >
+              <img src="img/entrenadores/pexels-mikhail-nilov-6740744.jpg" class="card-img-top" alt="6">
+              <div class="card-body text-white">
+                <h5 class="card-title">Maria G.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalentrenador6">
+                  Más información
+                </button>
+              </div>
+              <!-- Modal6-->
+              <div class="modal fade" id="modalentrenador6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel6">Maria G.</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 col-md-5">
+                                <img src="img/entrenadores/pexels-mikhail-nilov-6740744.jpg" class="img-fluid" alt="14">
+                            </div>
+                            <div class="col-12 col-md-7">
+                                ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid corporis quas fuga nesciunt asperiores. Repellat tempore, accusamus unde, esse, ea deleniti modi eius culpa iste odio repudiandae nihil nam.
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="modal-footer">
+                      <a   target="_blank" href="https://www.facebook.com">
+                        <img src="img/iconosredes/facebook.png" alt="face5" width="34" height="34"   >
+                      </a>
+                       <a  target="_blank" href="https://www.instagram.com">
+                        <img src="img/iconosredes/instagram.png" alt="ins5" width="34" height="34" >
+                      </a>
+                      <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- entrenador 7 -->
+         <div class="col-sm-6 col-md-3">
+            <div class="card  bg-dark" >
+              <img src="img/entrenadores/model-2453250_1920.jpg" class="card-img-top" alt="7">
+              <div class="card-body text-white">
+                <h5 class="card-title">Sara H.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalentrenador7">
+                  Más información
+                </button>
+              </div>
+              <!-- Modal7-->
+              <div class="modal fade" id="modalentrenador7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel7">Sara H.</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 col-md-5">
+                                <img src="img/entrenadores/model-2453250_1920.jpg" class="img-fluid" alt="15">
+                            </div>
+                            <div class="col-12 col-md-7">
+                                ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid corporis quas fuga nesciunt asperiores. Repellat tempore, accusamus unde, esse, ea deleniti modi eius culpa iste odio repudiandae nihil nam.
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="modal-footer">
+                      <a   target="_blank" href="https://www.facebook.com">
+                        <img src="img/iconosredes/facebook.png" alt="face6" width="34" height="34"   >
+                      </a>
+                       <a  target="_blank" href="https://www.instagram.com">
+                        <img src="img/iconosredes/instagram.png" alt="ins6" width="34" height="34" >
+                      </a>
+                      <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- entrenador 8 -->
+         <div class="col-sm-6 col-md-3">
+            <div class="card  bg-dark" >
+              <img src="img/entrenadores/workout-2928389_1920.jpg" class="card-img-top" alt="8">
+              <div class="card-body text-white">
+                <h5 class="card-title">Juan C.</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#modalentrenador8">
+                  Más información
+                </button>
+              </div>
+              <!-- Modal8-->
+              <div class="modal fade" id="modalentrenador8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel8">Juan C.</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="row">
+                            <div class="col-12 col-md-5">
+                                <img src="img/entrenadores/workout-2928389_1920.jpg" class="img-fluid" alt="16">
+                            </div>
+                            <div class="col-12 col-md-7">
+                                ipsum dolor sit amet consectetur adipisicing elit. Animi aliquid corporis quas fuga nesciunt asperiores. Repellat tempore, accusamus unde, esse, ea deleniti modi eius culpa iste odio repudiandae nihil nam.
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="modal-footer">
+                      <a   target="_blank" href="https://www.facebook.com">
+                        <img src="img/iconosredes/facebook.png" alt="face7" width="34" height="34"   >
+                      </a>
+                       <a  target="_blank" href="https://www.instagram.com">
+                        <img src="img/iconosredes/instagram.png" alt="ins7" width="34" height="34" >
+                      </a>
+                      <button type="button" class="btn btn-secondary btn-lg" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+    <!-- footer -->
+    <footer>
+      <div class="row d-flex align-items-center">
+          <div class="d-none d-md-block col-md-4">
+                <img src="img/LogoGym.png" height="80" alt="logo">
+          </div>
+          <div class="col-md-4 text-center id="copy">
+            &copy;Copyrigth <samp>GYM STYLE's </samp>
+          </div>
+          <div class="col-md-4">
+              <a  target="_blank" href="https://www.facebook.com">
+                  <img src="img/iconosredes/facebook.png" alt="logo" width="54" height="54" class="d-inline-block align-center">
+              </a>
+              <a  target="_blank" href="https://www.instagram.com">
+                  <img src="img/iconosredes/instagram.png" alt="logo" width="54" height="54" class="d-inline-block align-center">
+              </a>
+              <a  target="_blank" href="https://www.twitter.com">
+                  <img src="img/iconosredes/twitter.png" alt="logo" width="54" height="54" class="d-inline-block align-center">
+              </a>
+              <a  target="_blank" href="https://www.youtube.com">
+                  <img src="img/iconosredes/youtube.png" alt="logo" width="54" height="54" class="d-inline-block align-center">
+              </a>
+              <img src="img/iconosredes/descarga.png" alt="logo" width="54" height="54" class="d-inline-block align-center">
+          </div>
+      </div>
+  </footer>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
